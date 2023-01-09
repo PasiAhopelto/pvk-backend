@@ -1,6 +1,10 @@
 package github.pasiahopelto.pvk.model;
 
-public class PartyVotes {
+import java.io.Serializable;
+
+public class PartyVotes implements Serializable {
+    private static final long serialVersionUID = 7154954249806739867L;
+
     private String party;
     private int yesCount;
     private int noCount;

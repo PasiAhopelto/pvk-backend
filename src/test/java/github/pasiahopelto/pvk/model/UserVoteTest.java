@@ -8,5 +8,6 @@ public class UserVoteTest {
     @Test
     void verifyBean() {
         BeanVerifier.verifyBean(UserVote.class);
+
     }
 }

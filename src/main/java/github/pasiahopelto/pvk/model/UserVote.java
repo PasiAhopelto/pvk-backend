@@ -1,6 +1,10 @@
 package github.pasiahopelto.pvk.model;
 
-public class UserVote {
+import java.io.Serializable;
+
+public class UserVote implements Serializable {
+    private static final long serialVersionUID = -3530843823567194464L;
+
     public enum Voted { YES, NO }
 
     private String name;
